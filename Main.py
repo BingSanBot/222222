@@ -18,7 +18,7 @@ client = discord.Client()
 async def on_ready():
     print(client.user)
     print("봇 준비 완료")
-    game = discord.Game("빙산봇 명령어 개발")
+    game = discord.Game("빙산봇 버그 수정")
     await client.change_presence(status=discord.Status.online, activity=game)
 
 
