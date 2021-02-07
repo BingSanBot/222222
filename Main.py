@@ -34,7 +34,7 @@ async def on_message(message):
         embed.add_field(name="!테스트", value="빙산봇의 현재상태를 나타냅니다",inline=True)
         embed.add_field(name="!내정보", value="나의 디스코드 정보를 나타냅니다",inline=True)
         embed.set_footer(text="Made By. Sehyun")
-        await client.channel.send(embed=embed)
+        await message.channel.send(embed=embed)
 
 
 
